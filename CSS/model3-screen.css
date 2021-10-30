@@ -12,7 +12,6 @@
     margin-top: 26%;
 }
 .model-info li{
-    /* list-style: none; */
     float: left;
     text-align: center;
     padding: 0 15px;
@@ -30,7 +29,6 @@
 }
 .order-btn{
     background-color: transparent;
-    /* text-decoration: none; */
     float: left;
     margin-left: 20px;
     margin-top: 7px;
