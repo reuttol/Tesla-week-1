@@ -1,0 +1,67 @@
+/*Screen 1 - Model 3 home page*/
+.model-name{
+    font-family: "gotham-medium";
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 5%;
+}
+.model-info ul{
+    margin-left: 26%;
+    margin-top: 26%;
+}
+.model-info li{
+    /* list-style: none; */
+    float: left;
+    text-align: center;
+    padding: 0 15px;
+    color: #fff;
+}
+.model-info li span{
+    font-family: "gotham-medium";
+    font-size: 36px;
+    font-weight: 500;
+}
+.model-info li p{
+    font-family: "gotham-light";
+    font-size: 16px;
+    font-weight: 900;
+}
+.order-btn{
+    background-color: transparent;
+    /* text-decoration: none; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 7px;
+    padding: 10px 35px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "gotham-light";
+    font-size: 14px;
+    font-weight: bold;
+}
+.order-btn-light{
+    border: solid 3px #fff;
+    color: #fff;
+}
+.order-btn-light:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: 100;
+}
+.order-btn-black{
+    color: #000;
+    border: solid 3px #000;
+}
+.order-btn-black:hover{
+    background-color: #000;
+    color: #fff;
+}
+.plus_btn{
+    padding: 10px 13px;
+}
+#speed{
+    width: 45px;
+    height: 25px;
+}

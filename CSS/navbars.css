@@ -1,0 +1,72 @@
+/*Navagation bars*/
+.navbar-list{
+    font-family: "gotham-light";
+    font-size: 14px;
+    font-weight: 900;
+}
+.navbar-list li{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navbar-list li a{
+    color: #fff;
+}
+.navbar-list li:hover{
+    background-color: #767A83;
+
+}
+.home-header{
+    margin: 5px 0 0 0;
+}
+.logo{
+    float: left;
+    padding: 10px 0 0 0;
+    margin-left: 3%;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 1;
+    position: sticky;
+}
+.navbar{
+    margin-left: 18%;
+    float: left;
+}
+.menu{
+    float: left;
+    margin-left: 13%;
+}
+.side-navbar{
+    position: fixed;
+    z-index: 1;
+    height: 50%;
+    width: 100px;
+    top: 20%;
+    left: 5px;
+}
+.item{
+    height: 12%;
+    width: 100%;
+    z-index: 1;
+    margin: 10px 0;
+    font-size: 10px;
+}
+.bar{
+    background-color: transparent;
+    color: transparent;
+    width: 3px;
+    height: 25px;
+    margin-left: 3px;
+}
+.bar:hover{
+    color: #fff;
+}
+.square{
+    border-radius: 10px;
+    border: solid 1px darkgray;
+    width: 10px;
+    height: 25px;
+    font-size: 20px;
+}
