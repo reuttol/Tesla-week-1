@@ -71,7 +71,7 @@ li{
     width: 69.8vw;
 }
 .screen-1{    
-    background: url("../images/model-3-background-screen-1.jpg") no-repeat center fixed;
+    background: url("../images/model-3-background-screen-1.jpg") no-repeat center;
     background-size: cover;
     background-position: 0 -60px;
 }
