@@ -1,0 +1,388 @@
+
+@font-face{
+    font-family: 'gotham-book';
+    src: url(../Fonts/GothamBook.otf);
+}
+
+@font-face{
+    font-family: 'gotham-bold';
+    src: url(../Fonts/GothamBold.ttf);
+}
+
+@font-face{
+    font-family: 'gotham-medium';
+    src: url(../Fonts/GothamMedium.ttf);
+}
+
+@font-face{
+    font-family: 'gotham-light';
+    src: url(../Fonts/GothamLight.otf);
+}
+ 
+/* for developing only */
+div, section{
+    border: 1px solid red;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   width: 100vw;
+   height: 900vh;
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.clr{
+    clear: both;
+}
+
+.full-screen{
+    height: 100vh;
+    width: calc(100vw - var(--scrollbar-width))
+}
+.horizontal-screen_top{
+    height: 80vh;
+}
+.vertical-screen30{
+    width: 30vw;
+    background-color: #fff;
+    font-family: "gotham-light";
+}
+.vertical-screen30-left{
+    padding-left: 5%;
+}
+.vertical-screen30-right{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+.vertical-screen70{
+    width: 69.8vw;
+}
+.screen-1{    
+    background: url("../images/model-3-background-screen-1.jpg") no-repeat center fixed;
+    background-size: cover;
+    background-position: 0 -60px;
+}
+
+.screen-2 div{
+    float: left;
+}
+
+.navbar-list{
+    /* list-style: none; */
+    font-family: "gotham-light";
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.navbar-list li{
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.navbar-list li a{
+    /* text-decoration: none; */
+    color: #fff;
+}
+
+.navbar-list li:hover{
+    background-color: #767A83;
+
+}
+
+.sticky-header{
+    margin: 5px 0 0 0;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0 0 0;
+    margin-left: 3%;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 1;
+    position: sticky;
+}
+
+.navbar{
+    margin-left: 18%;
+    float: left;
+}
+.menu{
+    float: left;
+    margin-left: 13%;
+}
+
+.model-name{
+    font-family: "gotham-medium";
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 5%;
+}
+
+.model-info ul{
+    margin-left: 26%;
+    margin-top: 26%;
+}
+.model-info li{
+    /* list-style: none; */
+    float: left;
+    text-align: center;
+    padding: 0 15px;
+    color: #fff;
+}
+
+.model-info li span{
+    font-family: "gotham-medium";
+    font-size: 36px;
+    font-weight: 500;
+}
+.model-info li p{
+    font-family: "gotham-light";
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.order-btn{
+    background-color: transparent;
+    /* text-decoration: none; */
+    float: left;
+    margin-left: 20px;
+    margin-top: 7px;
+    padding: 10px 35px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "gotham-light";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.order-btn-light{
+    border: solid 3px #fff;
+    color: #fff;
+}
+
+.order-btn-light:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: 100;
+}
+
+.order-btn-black{
+    color: #000;
+    border: solid 3px #000;
+}
+.order-btn-black:hover{
+    background-color: #000;
+    color: #fff;
+}
+.plus_btn{
+    padding: 10px 13px;
+}
+
+#speed{
+    width: 45px;
+    height: 25px;
+}
+.svgs{
+    display: inline;
+}
+
+.safety{
+    padding-top: 13%;
+    
+    font-size: 20px;
+    color: #181b21;
+    font-weight: 500;
+}
+.descript{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: "gotham-medium";
+    margin-bottom: 35%;
+}
+.text{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 48%;
+}
+
+.side-navbar{
+    position: fixed;
+    z-index: 1;
+    height: 50%;
+    width: 100px;
+    top: 20%;
+    left: 5px;
+}
+
+.li-1{
+    height: 12%;
+    width: 100%;
+    z-index: 1;
+    margin: 10px 0;
+    font-size: 10px;
+
+}
+
+.bar-1{
+    /* border: 1px solid rgba(255,255,255,0.7); */
+    /* border-radius: 50px; */
+    background-color: transparent;
+    color: transparent;
+    width: 3px;
+    height: 25px;
+    /* text-decoration: none; */
+    margin-left: 3px;
+}
+.bar-1:hover{
+    color: #fff;
+}
+.square{
+    border-radius: 10px;
+    border: solid 1px darkgray;
+    width: 10px;
+    height: 25px;
+    font-size: 20px;
+}
+
+#saftey-img{
+    background: url(../Images/model_3_safety_hero.png) no-repeat center;
+    background-size: cover;
+    background-position: -100px 0;
+}
+
+.img-desrpt, .line{
+    font-family: "gotham-light";
+    font-size: 14px;
+}
+#ip{
+    position: absolute;
+    top: 123%;
+    left: 53.5%;
+}
+#rs{
+    position: absolute;
+    top: 114%;
+    left: 69.5%;
+}
+#vlrr{
+    position: absolute;
+    top: 182%;
+    left: 73%;
+}
+.line{
+    border: solid 1px black;
+    height: 200px;
+    width: 2px;
+    position: absolute;
+}
+#l1{
+    top: 125%;
+    left:53%;
+}
+#l2{
+    top: 115%;
+    left: 69%;
+    height: 90px;
+}
+#l3{
+    top: 160%;
+    left: 72.5%;
+    height:150px;
+}
+
+.plus{
+    color: #000;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+#plus-text{
+    font-family: "gotham-light";
+    font-size: 12px;
+    color: #000;
+    height: 10px;
+    width: 18px;
+    position: relative;
+    top: 17px;
+    left: 4px;
+}
+
+
+.screen-3 div{
+    float: left;
+}
+
+#range-img{
+    background: url(../Images/lhd-range-hero-desktop.jpg) no-repeat center;
+    background-size: cover;
+    /* background-position: -100px 0; */
+
+}
+
+.range-info{
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 75%;
+    padding-left: 20px;
+    
+    font-family: "gotham-medium";
+    font-size: 28px;
+    
+    float: left;
+}
+.range-info li{
+    float: left;
+    text-align: center;
+    padding: 0 5%;
+}
+
+
+.range-info p{
+    font-family: "gotham-light";
+    font-size: 12px;
+}
+
+#range-descript{
+    margin-bottom: 8%;
+}
+
+#range-text{
+    margin-bottom: 1%;
+}
+
+.range-map{
+    background: url(../Images/model-3-range-map.png) no-repeat center;
+    background-size: cover;
+    height: 48%;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+#range-plus-btn, #range-order-btn{
+    position: absolute;
+    margin-top: 13.5%;
+    z-index: 1;
+}
+#range-order-btn{
+    margin-left: 9%;
+}
