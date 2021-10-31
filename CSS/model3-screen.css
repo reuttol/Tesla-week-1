@@ -9,7 +9,7 @@
 }
 .model-info ul{
     margin-left: 26%;
-    margin-top: 26%;
+    margin-top: 28%;
 }
 .model-info li{
     float: left;
@@ -19,7 +19,7 @@
 }
 .model-info li span{
     font-family: "gotham-medium";
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
 }
 .model-info li p{
